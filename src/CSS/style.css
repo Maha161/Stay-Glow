@@ -1,0 +1,129 @@
+/* Basic Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color:rgba(255, 221, 204, 0.8);
+    --accent-color: rgb(105, 105, 105);
+    --text-dark: #2c2c2c;
+    --text-light: #ffffff;
+    --section-bg: rgba(255, 238, 230, 0.85);
+    --border-color: #e0cfc2;
+    --focus-shadow: 0 0 5px 2px rgba(105, 105, 105, 0.4);
+}
+
+/* Main page content */
+.main-content{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../images/image5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Navbar */
+.main-content .container .navbar{
+    background-color: var(--bg-color); 
+    height: 30px;
+}
+
+.main-content .container .navbar .nav-links a{
+    text-decoration: none;
+    color: black;
+    background-color: var(--section-bg);
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.main-content .container .navbar .nav-links a:hover{
+    background-color: var(--accent-color);
+    color: var(--text-light);
+}
+
+/* welcome section */
+.main-content .container .content .intro{
+    background-color: var(--bg-color);
+    color: var(--text-dark);
+    width: 90%;
+    max-width: 700px;
+}
+
+.main-content .container .content .intro h2 {
+    font-size: 2rem;
+}
+
+.main-content .container .content .intro p {
+    font-size: 1.1rem;
+}
+
+/* Service section */
+.main-content .container .content .services{
+    background-color: var(--section-bg);
+    width: 85%;
+    color: var(--text-dark);
+}
+
+
+.main-content .container .content .services h3{
+    color: var(--accent-color);
+}
+
+/* Book section */
+.main-content .container .book{
+    background-color: var(--section-bg);
+    width: 95%;
+}
+
+.book-form {
+    color: var(--text-dark);
+    background-color: var(--section-bg);
+    width: 90%;
+    max-width: 700px;
+}
+
+.book-form h2 {
+    background-color: var(--bg-color);
+    color: var(--accent-color);
+}
+
+.book-form table {
+    width: 100%;
+}
+
+.book-form td {
+    color: var(--text-dark);
+    background-color: var(--bg-color);
+}
+
+.book-form label {
+    color: var(--accent-color);
+}
+
+.book-form input,
+.book-form select {
+    width: 100%;
+    color: var(--text-dark);
+    height: 30px;
+}
+
+.book-form input:focus,
+.book-form select:focus {
+    background-color: var(--border-color);
+}
+
+.book-form input[type="submit"] {
+    background-color: var(--accent-color);
+    color: var(--text-light);
+    cursor: pointer;
+    height: 35px;
+}
+
+.book-form input[type="submit"]:hover {
+    background-color: #444;
+}

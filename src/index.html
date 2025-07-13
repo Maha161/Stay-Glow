@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Info -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Maha Ebrahim" />
+  <meta name="keywords" content="beauty salon, makeup, hair styling, book salon, glam, beauty booking, stay glam, spa, nails, facial" />
+  <meta name="description" content="Stay Glam – Book your beauty session online. Hair, makeup, facials, nails, and more by professional stylists. Feel confident and radiant!" />
+  <!-- Favicon -->
+  <link rel="icon" href="./images/hair-salon_3791216.ico" type="image/x-icon" />
+  <!-- Title -->
+  <title>Stay Glam</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <!-- Font awesome Link-->
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Main page content  -->
+  <div class="main-content" align="center">
+    <div class="container">
+      <!-- Navigation Bar -->
+      <div class="navbar">
+        <div class="nav-links">
+          <a href="./index.html"><i class="fas fa-home"></i> Home</a>
+          <a href="./book.html"><i class="fas fa-calendar-check"></i> Book Now</a>
+          <a href="./contact.html"><i class="fas fa-phone"></i> Contact</a>
+        </div>
+      </div>
+      <br>
+      <!-- Intro & Services Section -->
+      <div class="content" align="center">
+        <div class="intro">
+          <h2>Welcome to Stay Glam</h2>
+          <p>Your beauty journey starts here. From hair to makeup, we’ve got you covered!</p>
+        </div>
+        <br>
+        <div class="services">
+          <h3>Our Services</h3>
+          <div>
+            <p><i class="fas fa-cut"></i> Hair Styling - From classic cuts to trendy makeovers</p>
+            <p><i class="fas fa-paint-brush"></i> Makeup - Perfect for every occasion</p>
+            <p><i class="fas fa-spa"></i> Facials - Refresh and rejuvenate your skin</p>
+            <p><i class="fas fa-hand-sparkles"></i> Manicure & Pedicure - Treat your hands and feet</p>
+            <p><i class="fas fa-hot-tub"></i> Spa Treatments - Relax and unwind</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <!-- Booking Form -->
+      <div class="book">
+        <form class="book-form">
+          <h2>Book Your Glam Session</h2>
+          <br>
+          <table>
+            <tr>
+              <td><label for="name">Full Name:</label></td>
+              <td><input type="text" id="name" name="name" placeholder="Enter your full name" required></td>
+            </tr>
+
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+            </tr>
+
+            <tr>
+              <td><label for="phone">Phone Number:</label></td>
+              <td><input type="tel" id="phone" name="phone" placeholder="e.g. 0123456789"  required></td>
+            </tr>
+  
+            <tr>
+              <td><label for="service">Choose a Service:</label></td>
+              <td>
+                <select id="service" name="service" required>
+                  <option value="">--Select--</option>
+                  <option value="hair">Hair Styling</option>
+                  <option value="makeup">Makeup</option>
+                  <option value="facial">Facial</option>
+                  <option value="nails">Nails</option>
+                  <option value="spa">Spa Treatment</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="date">Preferred Date:</label></td>
+              <td><input type="date" id="date" name="date" required></td>
+            </tr>
+
+            <tr>
+              <td><label for="time">Preferred Time:</label></td>
+              <td><input type="time" id="time" name="time" required></td>
+            </tr>
+
+            <tr>
+              <td colspan="2" style="text-align: center;">
+                <input type="submit" value="Book Now">
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="./Js/index.js"></script>
+</body>
+</html>
