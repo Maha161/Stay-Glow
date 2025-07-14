@@ -7,12 +7,10 @@
 
 :root{
     --bg-color:rgba(255, 221, 204, 0.8);
-    --accent-color: rgb(105, 105, 105);
+    --gray-dark: rgb(105, 105, 105);
     --text-dark: #2c2c2c;
     --text-light: #ffffff;
     --section-bg: rgba(255, 238, 230, 0.85);
-    --border-color: #e0cfc2;
-    --focus-shadow: 0 0 5px 2px rgba(105, 105, 105, 0.4);
 }
 
 /* Main page content */
@@ -36,13 +34,10 @@
     text-decoration: none;
     color: black;
     background-color: var(--section-bg);
-    display: inline-block;
-    line-height: 30px;
-    padding: 0 10px;
 }
 
 .main-content .container .navbar .nav-links a:hover{
-    background-color: var(--accent-color);
+    background-color: var(--gray-dark);
     color: var(--text-light);
 }
 
@@ -59,7 +54,7 @@
 }
 
 .main-content .container .content .intro p {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* Service section */
@@ -71,7 +66,7 @@
 
 
 .main-content .container .content .services h3{
-    color: var(--accent-color);
+    color: var(--gray-dark);
 }
 
 /* Book section */
@@ -89,7 +84,7 @@
 
 .book-form h2 {
     background-color: var(--bg-color);
-    color: var(--accent-color);
+    color: var(--gray-dark);
 }
 
 .book-form table {
@@ -102,7 +97,7 @@
 }
 
 .book-form label {
-    color: var(--accent-color);
+    color: var(--gray-dark);
 }
 
 .book-form input,
@@ -118,7 +113,7 @@
 }
 
 .book-form input[type="submit"] {
-    background-color: var(--accent-color);
+    background-color: var(--gray-dark);
     color: var(--text-light);
     cursor: pointer;
     height: 35px;
